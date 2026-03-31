@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Module 3 Assignment</title>
+    <!-- Bootstrap CSS (CDN üzerinden) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Harici CSS Dosyamız -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Navbar Başlangıcı -->
+  <nav id="header-nav" class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <!-- Marka İsmi (Sola Hizalı) -->
+        <a href="index.html" class="navbar-brand">
+          <h1>Food, LLC</h1>
+        </a>
+
+        <!-- Hamburger Menü Butonu (Sadece Mobilde Görünür) -->
+        <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Dropdown Menü İçeriği -->
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+        <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
+          <li class="text-center">
+            <a href="#chicken">Chicken</a>
+          </li>
+          <li class="text-center">
+            <a href="#beef">Beef</a>
+          </li>
+          <li class="text-center">
+            <a href="#sushi">Sushi</a>
+          </li>
+        </ul>
+      </div><!-- .collapse -->
+    </div><!-- .container-fluid -->
+  </nav>
+
+  <div id="main-content" class="container">
+    <h2 class="text-center">Our Menu</h2>
+
+    <div class="row">
+      <!-- Chicken Section -->
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <section id="chicken">
+          <div class="section-title text-center">Chicken</div>
+          <p>
+            <strong>Geleneksel Ev Yapımı Tavuk Sote:</strong> Bu tarif, mutfağınızda harikalar yaratacak kadar detaylıdır. 
+            İlk aşamada tavuk göğüslerini kuşbaşı doğrayıp zeytinyağında mühürlemeniz gerekir. Ardından ince kıyılmış 
+            soğanlar ve sarımsaklar eklenir. Renkleri dönene kadar kavurma işlemine devam edilir. 
+            <br><br>
+            Sırrı ise kısık ateşte kendi suyunu çekene kadar beklemektir. Yeşil biber, kapya biber ve domates salçası 
+            ile zenginleştirilen bu harç, üzerine eklenen taze kekik ve pul biber ile karakter kazanır. Yanına yapacağınız 
+            tane tane dökülen bir pirinç pilavı ile servis edildiğinde, restoran kalitesinde bir deneyim sunar. 
+            İçeriğin devamında kullanılan baharatların oranları ve pişirme süreleri üzerine yapılan araştırmalar, 
+            tavuğun suyunu hapsetmesi için yüksek ateşte başlanmasının kritik olduğunu göstermektedir.
+            <br><br>
+            (Bu bölüm sayfanın kaydırılmasını sağlamak için uzun tutulmuştur. Lorem ipsum dolor sit amet, consectetur 
+            adipisicing elit. Eos, unde, hie! Sayfayı aşağı kaydırdığınızda navbar'ın yukarıda kaldığını göreceksiniz.)
+          </p>
+        </section>
+      </div>
+
+      <!-- Beef Section -->
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <section id="beef">
+          <div class="section-title text-center">Beef</div>
+          <p>
+            <strong>Ağır Ateşte Pişmiş Dana Antrikot:</strong> Et pişirmek bir sanattır ve bu tarif size bu sanatın 
+            inceliklerini öğretecek. Öncelikle etin oda sıcaklığında en az 30 dakika dinlenmiş olması şarttır. 
+            Döküm tavada mühürlenen etler, dışındaki o karamelize katmanı oluşturduktan sonra 
+            tereyeğı, taze biberiye ve ezilmiş sarımsak ile banyo yaptırılır.
+            <br><br>
+            Etin iç sıcaklığının 54 dereceye ulaşması orta pişmiş bir sonuç için idealdir. Ancak tarifimiz burada bitmiyor; 
+            et dinlenirken hazırlayacağınız mantar sosu, yemeğin asıl yıldızı olacak. Krema, karabiber ve ince kıyılmış 
+            şalot soğanların birleşimiyle oluşan bu sos, tabağınıza derinlik katar. Bu uzun süreç, sabrın mutfaktaki 
+            en büyük yardımcınız olduğunu kanıtlar niteliktedir.
+          </p>
+        </section>
+      </div>
+
+      <!-- Sushi Section -->
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <section id="sushi">
+          <div class="section-title text-center">Sushi</div>
+          <p>
+            <strong>Özel Roll Hazırlama Rehberi:</strong> Suşi sadece pirinç ve balık değildir; bir denge meselesidir. 
+            Kullanılacak pirincin sirke, şeker ve tuz dengesinin mükemmel olması gerekir. Pirinçler haşlandıktan sonra 
+            ahşap bir kapta soğutulurken yelpazelenmelidir ki o karakteristik parlaklığını kaybetmesin.
+            <br><br>
+            Nori yaprağının üzerine pirinci eşit şekilde yaydıktan sonra içine taze somon, avokado ve salatalık şeritleri eklenir. 
+            Bamboo mat yardımıyla sıkıca sarılan roll'lar, keskin bir bıçakla tek hamlede dilimlenmelidir. 
+            Yanında servis edilecek olan wasabi ve gari damaktaki tatları temizleyerek her lokmada 
+            aynı tazeliği hissetmenizi sağlar.
+          </p>
+        </section>
+      </div>
+    </div><!-- .row -->
+  </div><!-- #main-content -->
+
+  <!-- jQuery ve Bootstrap JS (Dropdown çalışması için zorunlu) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
